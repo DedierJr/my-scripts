@@ -1,0 +1,13 @@
+{
+  "name": "my-copy-cli",
+  "version": "1.0.0",
+  "description": "Um comando CLI para copiar conteúdo para a área de transferência",
+  "main": "copy.js",
+  "type": "module",
+  "bin": {
+    "ct": "./script.js" 
+  },
+  "dependencies": {
+    "clipboardy": "^2.3.0"
+  }
+}
